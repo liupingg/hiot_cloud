@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>3290362105</fileChecksum>
+  <fileChecksum>597494121</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
@@ -17,7 +17,9 @@
       <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
       <file>$PROJ_DIR$\..\Driver\led.c</file>
       <file>$PROJ_DIR$\Debug\Obj\Template.pbd</file>
+      <file>C:\Users\lp\AppData\Roaming\IAR Embedded Workbench\CodeTemplates.ENU.txt</file>
       <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$TOOLKIT_DIR$\doc\infocenter\index.ENU.html</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\..\..\&#x5De5;&#x7A0B;&#x642D;&#x5eFA;&#x4e0e;&#x7F16;&#x7A0B;&#x89C4;&#x8303;&#x6027;\&#x4eFB;&#x52A1;&#x6587;&#x4eF6;\&#x4F18;&#x5316;&#x524D;&#x7684;&#x4ee3;&#x7801;&#x6587;&#x4eF6;\main.c</name>
@@ -34,11 +36,11 @@
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 5</file>
+          <file> 0 5</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 5</file>
+          <file> 0 5</file>
         </tool>
       </inputs>
     </file>
@@ -47,7 +49,7 @@
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 2 8 6</file>
+          <file> 2 3 8 6</file>
         </tool>
       </inputs>
     </file>
@@ -56,7 +58,11 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 11</file>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3</file>
         </tool>
       </outputs>
       <inputs>
@@ -75,7 +81,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 11 7</file>
+          <file> 12 7</file>
         </tool>
       </inputs>
     </file>

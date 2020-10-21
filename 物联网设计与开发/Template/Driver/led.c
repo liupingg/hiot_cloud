@@ -33,7 +33,7 @@
 void LedInt(void)
 {
   //P1SEL对应设置为通用IO（清零）
-  P1SEL &=0x13;
+  P1SEL &=~0x13;
   //P1SEL对应设置为输出（置1）
    P1DIR |=0x13;
    //P1SEL对应设置为灭灯状态（置1）
@@ -47,27 +47,28 @@ void LedInt(void)
 * 时间：2020/10/20
 * 描述：开灯
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-void LedOn(unsigned char ucLedNum 0 所有灯亮；2 D2 亮；3 D3 亮)
+void LedOn(unsigned char ucLedNum)
 {
   switch(ucLedNum)
   {
   case 0:
-    LED 1 = LED_ON;
-    LED 2 = LED_ON;
-    LED 3 = LED_ON;
+    LED1 = LED_ON;
+    LED2 = LED_ON;
+    LED3 = LED_ON;
     break;
   case 1:
-    LED 1=LED_ON;
+    LED1=LED_ON;
     break;
   case 2:
-     LED 2=LED_ON;
+     LED2=LED_ON;
      break;
   case 3:
-    LED 3=LED_ON;
+    LED3=LED_ON;
     break;
   default:
     break;
   }
+}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * 函数名：LedOff
 * 参数：unsigned char ucLedNum 0 所有灯灭；2 D2灭；3 D3 灭
@@ -76,23 +77,23 @@ void LedOn(unsigned char ucLedNum 0 所有灯亮；2 D2 亮；3 D3 亮)
 * 时间：2020/10/20
 * 描述：关灯
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-void LedOff(unsigned char ucLedNum 0 所有灯灭；2 D2灭；3 D3 灭；)
+void LedOff(unsigned char ucLedNum)
 {
    switch(ucLedNum)
   {
   case 0:
-    LED 1=LED_OFF;
-    LED 2=LED_OFF;
-    LED 3=LED_OFF;
+    LED1=LED_OFF;
+    LED2=LED_OFF;
+    LED3=LED_OFF;
     break;
   case 1:
-    LED 1=LED_OFF;
+    LED1=LED_OFF;
     break;
   case 2:
-     LED 2=LED_OFF;
+     LED2=LED_OFF;
      break;
   case 3:
-    LED 3=LED_OFF;
+    LED3=LED_OFF;
     break;
   default:
     break;
@@ -111,19 +112,19 @@ void LedYoggle(unsigned char ucLedNum)
    switch(ucLedNum)
   {
   case 0:
-    LED 1=LED_ON;
-    LED 2=LED_OFF;
-    LED 3=LED_OFF;
+    LED1=LED_ON;
+    LED2=LED_OFF;
+    LED3=LED_OFF;
     break;
   case 1:
-    LED 1=LED_OFF;
-    LED 2=LED_ON;
-    LED 3=LED_OFF;
+    LED1=LED_OFF;
+    LED2=LED_ON;
+    LED3=LED_OFF;
     break;
   case 2:
-     LED 1=LED_OFF;
-    LED 2=LED_OFF;
-    LED 3=LED_ON;
+     LED1=LED_OFF;
+    LED2=LED_OFF;
+    LED3=LED_ON;
      break;
   default:
     break;
@@ -131,25 +132,3 @@ void LedYoggle(unsigned char ucLedNum)
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* 函数名：Delay
-* 参数：uint time
-* 返回：void
-* 作者：liuping
-* 时间：2020/10/21
-* 描述：延时函数
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-void Delay(uint time)
-{
-  uint i;
-  uchar j;
-  for(i = 0;i < time;i++)
-  {
-    for(j = 0;j <1000;j++)
-    {
-      asm("NOP");
-      asm("NOP");
-      asm("NOP");
-    }
-  }
-}

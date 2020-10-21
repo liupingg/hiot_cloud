@@ -32,7 +32,7 @@
             <Factory>Workspace</Factory>
             <Session>
               
-            <NodeDict><ExpandedNode>Template</ExpandedNode><ExpandedNode>Template/App</ExpandedNode><ExpandedNode>Template/App/main.c</ExpandedNode><ExpandedNode>Template/Driver</ExpandedNode></NodeDict></Session>
+            <NodeDict><ExpandedNode>Template</ExpandedNode><ExpandedNode>Template/App</ExpandedNode><ExpandedNode>Template/Driver</ExpandedNode><ExpandedNode>Template/Driver/led.c</ExpandedNode></NodeDict></Session>
           </Tab>
         </Tabs>
         
@@ -52,7 +52,7 @@
       
       
       
-    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation_2\8051\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\&#x5De5;&#x7A0B;&#x642D;&#x5eFA;&#x4e0e;&#x7F16;&#x7A0B;&#x89C4;&#x8303;&#x6027;\&#x4eFB;&#x52A1;&#x6587;&#x4eF6;\&#x4F18;&#x5316;&#x524D;&#x7684;&#x4ee3;&#x7801;&#x6587;&#x4eF6;\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>126</SelStart><SelEnd>126</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Driver\led.h</Filename><XPos>0</XPos><YPos>24</YPos><SelStart>431</SelStart><SelEnd>431</SelEnd></Tab><ActiveTab>2</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Driver\led.c</Filename><XPos>0</XPos><YPos>153</YPos><SelStart>2073</SelStart><SelEnd>2073</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\Embedded Workbench 6.0 Evaluation_2\8051\doc\infocenter\index.ENU.html</Filename></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\&#x5De5;&#x7A0B;&#x642D;&#x5eFA;&#x4e0e;&#x7F16;&#x7A0B;&#x89C4;&#x8303;&#x6027;\&#x4eFB;&#x52A1;&#x6587;&#x4eF6;\&#x4F18;&#x5316;&#x524D;&#x7684;&#x4ee3;&#x7801;&#x6587;&#x4eF6;\main.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>1088</SelStart><SelEnd>1088</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Driver\led.h</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>996</SelStart><SelEnd>996</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\Driver\led.c</Filename><XPos>0</XPos><YPos>21</YPos><SelStart>1113</SelStart><SelEnd>1113</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Users\lp\AppData\Roaming\IAR Embedded Workbench\CodeTemplates.ENU.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>780</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
     <Positions>
       
       
