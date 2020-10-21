@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3290362105</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\Driver\led.h</file>
+      <file>$PROJ_DIR$\..\..\&#x5De5;&#x7A0B;&#x642D;&#x5eFA;&#x4e0e;&#x7F16;&#x7A0B;&#x89C4;&#x8303;&#x6027;\&#x4eFB;&#x52A1;&#x6587;&#x4eF6;\&#x4F18;&#x5316;&#x524D;&#x7684;&#x4ee3;&#x7801;&#x6587;&#x4eF6;\main.c</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_cc2530F256_banked.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.r51</file>
+      <file>$PROJ_DIR$\Debug\Exe\Template.d51</file>
+      <file>$TOOLKIT_DIR$\inc\ioCC2530.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl-pli-blxd-1e16x01.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
+      <file>$PROJ_DIR$\..\Driver\led.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\Template.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\..\&#x5De5;&#x7A0B;&#x642D;&#x5eFA;&#x4e0e;&#x7F16;&#x7A0B;&#x89C4;&#x8303;&#x6027;\&#x4eFB;&#x52A1;&#x6587;&#x4eF6;\&#x4F18;&#x5316;&#x524D;&#x7684;&#x4ee3;&#x7801;&#x6587;&#x4eF6;\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\Template.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 2 8 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Driver\led.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 0 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 0 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\Template.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 11 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
